@@ -1,6 +1,7 @@
 package edu.abcp.controller;
 
 //import org.springframework.security.core.context.SecurityContextHolder;
+import org.apache.log4j.Logger;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -8,6 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @RequestMapping("/")
 public class MediatorController {
+	
+	protected static Logger logger = Logger.getLogger("controller");
 
 	@RequestMapping
 	public String getHomePage(ModelMap model) {
