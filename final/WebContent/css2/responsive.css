@@ -1,0 +1,394 @@
+@media only screen and (min-width: 992px) and (max-width: 1280px) { 
+div.cart-collaterals ul.products li.product {
+  float: left;
+  margin-left: 30px;
+  position: relative;
+  width: 160px;
+}
+.coupon input[type="text"] {
+  width: 100px;
+}  
+input[type="submit"], button[type="submit"] {
+  padding: 11px 15px;
+} 
+.col-1, .col-2 {
+  width: 293px;
+}    
+    
+    
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+.user-menu, .header-right ul.list-inline {
+  text-align: center;
+}
+.mainmenu-area ul.navbar-nav li a {
+  font-size: 14px;
+  padding: 15px 10px;
+}  
+.single-promo {margin-bottom: 30px}    
+.single-product-widget, .footer-about-us, .footer-menu {
+  margin-bottom: 60px;
+}
+    
+    
+.product-widget-area .zigzag-bottom {
+  bottom: -50px;
+  height: 100px;
+}
+.product-widget-area {
+  padding-bottom: 90px;
+}   
+    
+.footer-top-area .zigzag-bottom {
+  bottom: -153px;
+  height: 200px;
+}    
+.footer-top-area {
+  padding: 35px 0 125px;
+}  
+div.cart-collaterals ul.products li.product {
+  width: 190px;
+}  
+    
+.col-1, .col-2 {
+  width: 345px;
+}    
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    
+.user-menu, .header-right ul.list-inline {
+  text-align: center;
+}  
+.logo h1 {
+  font-size: 30px;
+  margin: 20px 0;
+  text-align: center;
+} 
+.shopping-item {
+  float: none;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  text-align: center;
+}  
+.navbar-header {
+  text-align: center;
+}    
+    
+
+.navbar-collapse.collapse.in {
+  background: none repeat scroll 0 0 #f4f4f4;
+  position: relative;
+  z-index: 99;
+} 
+.mainmenu-area ul.navbar-nav li a {
+  padding: 15px;
+}  
+.mainmenu-area {position: relative !important}
+.slide-text {
+  font-size: 16px;
+}  
+.slide-text h2 {
+  font-size: 30px;
+}  
+.readmore {
+  font-size: 16px;
+  padding: 8px 20px;
+}    
+.single-promo {
+  margin-bottom: 30px;
+} 
+.section-title {
+  font-size: 35px;
+}  
+    
+    
+.product-widget-area .zigzag-bottom {
+  bottom: -50px;
+  height: 100px;
+}
+.product-widget-area {
+  padding-bottom: 90px;
+}   
+    
+.footer-top-area .zigzag-bottom {
+  bottom: -153px;
+  height: 200px;
+}    
+.footer-top-area {
+  padding: 35px 0 125px;
+} 
+    
+.single-product-widget, .footer-about-us, .footer-menu {
+  margin-bottom: 60px;
+}  
+    
+.product-wid-title {
+  font-size: 25px;
+}  
+    
+.related-products-wrapper .owl-nav {
+  left: -15px;
+  position: relative;
+  right: inherit;
+  top: 15px;
+}  
+div.cart-collaterals ul.products {
+  margin: 0;
+}  
+div.cart-collaterals ul.products li.product {
+  margin-bottom: 30px;
+  margin-left: 0;
+  width: 100%;
+}  
+div.cart-collaterals ul.products li.product img {width: 100%}  
+    
+.product-bit-title h2 {
+  font-size: 35px;
+  padding: 40px 0;
+}  
+.col2-set {
+  margin-left: 0;
+}    
+.col-1, .col-2 {
+  float: none;
+  margin-left: 0;
+  width: inherit;
+}    
+    
+    
+/* Special */    
+    
+table.shop_table th, table.shop_table td {
+  font-size: 12px;
+  padding: 5px;
+}    
+td.product-thumbnail img {
+  width: 30px;
+} 
+    
+div.quantity input.plus, div.quantity input.minus {
+  display: none;
+}   
+table.shop_table th {
+  font-size: 12px;
+}    
+div.coupon input[type="text"] {
+  width: 100px;
+} 
+.coupon {margin-bottom: 10px}      
+.cross-sells {
+  float: none;
+  margin-bottom: 30px;
+  margin-right: 0;
+  width: 100%;
+}  
+.cart_totals, .cart-collaterals .shipping_calculator {
+  float: none;
+  margin-bottom: 40px;
+  width: 100%;
+}  
+    
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+    
+  
+    
+}
+
+
+
+#wrap	{
+	width: 100%; /* Spans the width of the page */
+	height: 50px; 
+	margin: 0; /* Ensures there is no space between sides of the screen and the menu */
+	z-index: 99; /* Makes sure that your menu remains on top of other page elements */
+	position: relative; 
+	background-color: #366b82;
+	}
+	
+	.navbar	{
+	height: 50px;
+        padding: 0;
+	margin: 0;
+	position: absolute; /* Ensures that the menu doesn’t affect other elements */
+	border-right: 1px solid #54879d; 
+	}
+	.navbar li 	{
+			height: auto;
+			width: 150px;  /* Each menu item is 150px wide */
+			float: left;  /* This lines up the menu items horizontally */
+			text-align: center;  /* All text is placed in the center of the box */
+			list-style: none;  /* Removes the default styling (bullets) for the list */
+			font: normal bold 15px/1.2em Arial, Verdana, Helvetica;  
+			padding: 0;
+			margin: 0;
+			background-color: #366b82;
+                        }
+                        .navbar li ul 	{
+		display: none;  /* Hides the drop-down menu */
+		height: 150px;									
+		margin: 0; /* Aligns drop-down box underneath the menu item */
+		padding: 0; /* Aligns drop-down box underneath the menu item */			
+		}				
+
+.navbar li:hover ul 	{
+                        display: block; /* Displays the drop-down box when the menu item is hovered over */
+                        
+                        
+                        }
+                         .navbar li ul li {background-color: #000;} 
+                         
+                         
+                         
+                         
+                         
+                         
+                         
+                         
+                         
+                         
+                         
+                         
+                         
+                         
+                         
+                         
+                         
+                         
+                         
+        
+media="all"
+.btn[disabled], .btn.disabled {
+    background: #ebebeb;
+    cursor: not-allowed;
+}
+media="all"
+.btn[disabled], .btn.disabled {
+    cursor: default;
+    opacity: 0.4;
+}
+3454media="all"
+button[disabled], html input[disabled] {
+    cursor: default;
+}
+media="all"
+.btn {
+    border-radius: 3px;
+}
+media="all"
+.btn {
+    border: none;
+    color: #333;
+    font-weight: normal;
+    background: #ebebeb;
+}
+media="all"
+.btn {
+    display: inline-block;
+    margin: 0;
+    padding: 6px 12px;
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 18px;
+    text-align: center;
+    cursor: pointer;
+    transition: all .25s;
+}
+media="all"
+body input, body button, body select, body textarea {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+media="all"
+body label, body input, body button, body select, body textarea {
+    font-size: 0.929em;
+    font-weight: normal;
+    line-height: 18px;
+}
+media="all"
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+media="all"
+button, select {
+    text-transform: none;
+}
+media="all"
+button {
+    overflow: visible;
+}
+media="all"
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+user agent stylesheetinput[type="button" i]:disabled, input[type="submit" i]:disabled, input[type="reset" i]:disabled, input[type="file" i]:disabled::-webkit-file-upload-button, button:disabled, select:disabled, keygen:disabled, optgroup:disabled, option:disabled, select[disabled] > option {
+    color: graytext;
+}
+user agent stylesheetinput[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
+    padding: 1px 6px;
+}
+user agent stylesheetinput[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: buttontext;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    background-color: buttonface;
+    box-sizing: border-box;
+    padding: 2px 6px 3px;
+    border: 2px outset buttonface;
+}
+user agent stylesheetinput, textarea, keygen, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em 0em 0em 0em;
+    font: 13.3333px Arial;
+}
+user agent stylesheetinput, textarea, keygen, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb;
+}
+user agent stylesheetbutton {
+    -webkit-appearance: button;
+}
+Inherited from div.posts-wrapper
+media="all"
+.posts-wrapper {
+    position: relative;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+Inherited from html.desktop-view.not-mobile-device.anon.js.no-touch.discourse-no-touch
+media="all"
+html {
+    color: #333;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    background-color: #fff;
+    overflow-y: scroll;
+    direction: ltr;
+}
+media="all"
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+                             

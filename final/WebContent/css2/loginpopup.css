@@ -1,0 +1,66 @@
+@CHARSET "ISO-8859-1";
+
+#popupbox {
+	margin: 0;
+	margin-left: 13%;
+	margin-right: 40%;
+	margin-top: 150px;
+	padding-top: 20px;
+	padding-left: 30px;
+	width: 70%;
+	height: 350px;
+	position: absolute;
+	background: grey;
+	border: solid #8080802px;
+	box-shadow: 0px 0px 100px #0080c0;
+	font-family: arial;
+	visibility:hidden;
+	z-index: 999;
+}
+
+.LoginFormaa ul {
+    padding: 0;
+    margin: 0;
+ 
+}
+.LoginFormaa li {
+    display:list-item;
+    float: left;
+}
+
+label {
+    display: block;
+    color: #999;
+}
+.bb:before,
+.bb:after {
+    content: ""; 
+    display: table;
+    z-index:999;
+}
+ 
+.bb:after {
+    clear: both;
+    
+    
+}
+.bb {
+    *zoom: 1;
+    z-index:999;
+}
+:focus {
+    outline: 0;
+}
+
+.LoginFormaa input:not([type=button]) {
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.1), 
+                0px 1px 0px 0px rgba(250, 250, 250, 0.5) ;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+
