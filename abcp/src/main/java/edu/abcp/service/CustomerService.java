@@ -15,7 +15,7 @@ import edu.abcp.repository.CustomerRepository;
 @Service
 public class CustomerService
 {
-	protected static Logger logger = Logger.getLogger("service");
+	protected static Logger logger = Logger.getLogger("CustomerService");
 	
 	@Autowired
 	private CustomerRepository customerRepository;
