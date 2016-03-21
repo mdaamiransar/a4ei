@@ -15,6 +15,7 @@ public class MediatorController {
 	@RequestMapping
 	public String getHomePage(ModelMap model) {
 		//model.addAttribute("authname", SecurityContextHolder.getContext().getAuthentication().getName());
+		logger.debug("");
 		model.addAttribute("hi","John");
 		return "welcome";
 	}
